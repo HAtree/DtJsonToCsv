@@ -9,8 +9,8 @@ To use, call the script from the command line and pass in a JSON file from the t
 optionally pass in an output file directory and the -e flag to convert the unix timestamps from the API into excel format
 `py DTJsonToCsv.py -e easyTravelResponseTimes.json -o easyTravelResponseTimes.csv`
 
-
-`usage: JsonToCsv-v1.py [-h] [-o OUTPUT_FILE] [-e] inputJSONFile
+```bash
+usage: JsonToCsv-v1.py [-h] [-o OUTPUT_FILE] [-e] inputJSONFile
 
 Converts a JSON File from a Dynatrace Timeseries API to a CSV file.
 
@@ -25,4 +25,5 @@ optional arguments:
   -e, --excel_timestamps
                         if set, converts timestamps into excel format. In
                         excel set cell format to 'DATE' 'TIME' or 'SPECIAL
-                        dd:mm:yy hh:MM'`
+                        dd:mm:yy hh:MM'
+```
